@@ -1,0 +1,151 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blueviolet;
+    background: url(./backgroungpurple.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: beige;
+}
+
+form{
+    background: transparent;
+    backdrop-filter: blur(15px);
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 270px;
+    width: 200px
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+div{
+    padding: 10px;
+}
+
+.email-box, .password-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.email-box > label, .password-box > label{
+    font-size: 13px;
+}
+
+input{
+    background: transparent;
+    border: none;
+}
+
+button{
+    padding: 3px 70px;
+    border: none;
+    border-radius: 50px;
+    background-color:#0095f6;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: antiquewhite;
+    margin-top: 10px;    
+    margin-bottom: 10px;
+}
+
+.forgot-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+a{
+    color: beige;
+    text-decoration: none;
+    font-size: 10px;
+    padding-top: 30px;
+}
+
+.forgot-box > label{
+    font-size: 10px;
+}
+
+.forgot-box, input{
+    height: 10px;
+}
+
+
+@media(max-width: 414px){
+
+    form{
+        width: 120px;
+        height: 170px;
+    }
+
+    h2{
+        font-size: 25px;
+        font-weight: 1000;
+        margin-top: 0px;
+    }
+
+    div{
+        padding: 7px;
+    }
+
+    .email-box > label, .password-box > label{
+        font-size: 10px;
+    }
+
+    button{
+        padding: 2px 30px;
+        border: none;
+        border-radius: 100px;
+        background-color:#0095f6;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        color: antiquewhite;
+        margin-top: 6px;    
+        margin-bottom: 9px;
+        font-size: 9px;
+    }
+
+    .forgot-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+
+    a{
+        color: beige;
+        text-decoration: none;
+        font-size: 7px;
+        padding-top: 10px;
+    }
+
+    .forgot-box > label{
+        font-size: 7px;
+        margin-top: 30px;
+    }
+
+    .forgot-box, input{
+        height: 8px;
+        margin: 0px;
+    }
+    
+
+
+
+
+}
